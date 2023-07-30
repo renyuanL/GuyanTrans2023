@@ -7,5 +7,6 @@
 
 ## 六祖壇經
 - https://youtube.com/playlist?list=PLiKV-SdW8Y0wpHZkNzn3wtxwF-elCUjNJ
-  
- 
+
+## 維摩詰所說經
+- https://youtube.com/playlist?list=PLiKV-SdW8Y0xURAANVoe5FAoPHi-Hnv6w 
