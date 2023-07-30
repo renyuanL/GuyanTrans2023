@@ -2,13 +2,16 @@ import os
 import glob
 import tqdm
 
-#mp4Path= 'srt_2023_7月_7日禪_medium'
-mp4Path= 'srt_2023_7月_7日禪_large'
 
-#mp4Path= 'tmp000_校對'
+mp4Path= 'srt_維摩詰所說經'
+mp4Path= 'srt_六祖壇經'
+mp4Path= 'srt_112年7月阿彌陀佛紐涅七日禪'
 
-#mp4Path= 'srt_六祖壇經'
-mp4Path= 'srt_2023_7月_7日禪_large'
+# get mp4Path from command line
+import sys
+if len(sys.argv) > 1:
+    mp4Path= sys.argv[1]
+
 
 fList = glob.glob(f'{mp4Path}/*.srt')
 fList+= glob.glob(f'{mp4Path}/*/*.srt')
