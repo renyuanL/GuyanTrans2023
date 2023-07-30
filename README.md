@@ -2,6 +2,10 @@
 
 - https://www.youtube.com/@ksguyan
 
+# 古嚴寺佛學課程：
+- https://www.youtube.com/@ksguyan/playlists?view=50&shelf_id=2
+
+# 逐字稿 初版
 ## 2023 暑假 禪七
 - https://youtube.com/playlist?list=PLiKV-SdW8Y0z_G9QYfj5vPLxaihsaikEX
 
