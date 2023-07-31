@@ -19,5 +19,5 @@
 - https://youtube.com/playlist?list=PLiKV-SdW8Y0yObJ27lFZoej3mSNx5BgGS
 
 ## 楞伽經
-- ....
+- https://youtube.com/playlist?list=PLiKV-SdW8Y0z-DWztzPPZVyEPdXjZEqYz
 
