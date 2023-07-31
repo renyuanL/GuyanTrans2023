@@ -16,8 +16,8 @@
 - https://youtube.com/playlist?list=PLiKV-SdW8Y0xURAANVoe5FAoPHi-Hnv6w 
 
 ## 無染覺性直觀自行解脫之道
-- ....
+- https://youtube.com/playlist?list=PLiKV-SdW8Y0yObJ27lFZoej3mSNx5BgGS
 
 ## 楞伽經
-- ....
+- https://youtube.com/playlist?list=PLiKV-SdW8Y0z-DWztzPPZVyEPdXjZEqYz
 
