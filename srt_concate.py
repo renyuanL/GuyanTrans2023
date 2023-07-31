@@ -17,6 +17,7 @@ fList = glob.glob(f'{mp4Path}/*.srt')
 fList+= glob.glob(f'{mp4Path}/*/*.srt')
 fList+= glob.glob(f'{mp4Path}/*/*/*.srt')
 fList+= glob.glob(f'{mp4Path}/*/*/*/*.srt')
+fList+= glob.glob(f'{mp4Path}/*/*/*/*/*.srt')
 
 # concat all srt files
 # keep their filename as a independent line
@@ -81,8 +82,9 @@ for n, t, nCh, f in nL:
 print(f'{len(nL)= } files')
 
 #print(f'{tL= }')
-#print(f'{sum(tL)= :.3f} seconds')
+print(f'{sum(tL)= :,} seconds')
 print(f'{sum(tL)/3600= :.3f} hours')
+print(f'{sum(tL)/3600/24= :.3f} days')
 
 #print(f'{numCh= } chars')
 # print numCh using large number format
