@@ -7,6 +7,8 @@ mp4Path= 'srt_維摩詰所說經'
 mp4Path= 'srt_六祖壇經'
 mp4Path= 'srt_112年7月阿彌陀佛紐涅七日禪'
 
+mp4Path= '.'
+
 # get mp4Path from command line
 import sys
 if len(sys.argv) > 1:

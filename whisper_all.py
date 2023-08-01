@@ -29,8 +29,6 @@ os.system(cmd00)
 #mp4Path= '2023_7月_7日禪'
 #mp4Path= 'tgt'
 
-
-mp4Path= 'tgt02_楞伽經'
 mp4Path= 'tgt'
 
 fList=  glob.glob(f'{mp4Path}/*.mp4')
@@ -40,7 +38,7 @@ fList+= glob.glob(f'{mp4Path}/*/*/*/*.mp4')
 
 # print(f'{fList= }')
 
-model_size= 'tiny'
+model_size= 'large' #'tiny'
 device=     'cuda' # 'cpu'
 
 cmd0=   'whisper  --output_format srt '
