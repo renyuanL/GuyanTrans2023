@@ -21,3 +21,10 @@
 ## 楞伽經
 - https://youtube.com/playlist?list=PLiKV-SdW8Y0z-DWztzPPZVyEPdXjZEqYz
 
+## 圓覺經
+....
+
+## 法句經
+....
+
+
