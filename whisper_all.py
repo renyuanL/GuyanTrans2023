@@ -29,22 +29,28 @@ os.system(cmd00)
 #mp4Path= '2023_7月_7日禪'
 #mp4Path= 'tgt'
 
-mp4Path= 'tgt01_楞嚴咒'
+
 mp4Path= 'tgt02_楞伽經'
+mp4Path= 'tgt'
 
 fList=  glob.glob(f'{mp4Path}/*.mp4')
 fList+= glob.glob(f'{mp4Path}/*/*.mp4')
 fList+= glob.glob(f'{mp4Path}/*/*/*.mp4')
+fList+= glob.glob(f'{mp4Path}/*/*/*/*.mp4')
 
 # print(f'{fList= }')
 
-model_size= 'large'
+model_size= 'tiny'
+device=     'cuda' # 'cpu'
 
 cmd0=   'whisper  --output_format srt '
-cmd0 += '--language zh --initial_prompt "台灣 繁體 中文 佛經 楞伽經。" '
+cmd0 += '--language zh --initial_prompt "台灣 繁體 中文 佛經 楞嚴經 圓覺經 法句經。" '
 
-cmd0 += f'--output_dir "srt_{mp4Path}_{model_size}" '
 cmd0 += f'--model {model_size} '
+cmd0 += f'--device {device} '
+
+cmd0 += f'--output_dir "srt_{mp4Path}_{model_size}_{device}" '
+
     
 for f in tqdm.tqdm(fList): 
     #print(f'{f= } ')
