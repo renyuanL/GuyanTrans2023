@@ -22,9 +22,10 @@
 - https://youtube.com/playlist?list=PLiKV-SdW8Y0z-DWztzPPZVyEPdXjZEqYz
 
 ## 圓覺經
-....
+- https://youtube.com/playlist?list=PLiKV-SdW8Y0xmYI6S2ELVnzX1V03pshlZ
 
 ## 法句經
-....
+- https://youtube.com/playlist?list=PLiKV-SdW8Y0yGuOF6c5Als_Tl4TDIJH_h
+  
 
 
