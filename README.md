@@ -26,6 +26,10 @@
 
 ## 法句經
 - https://youtube.com/playlist?list=PLiKV-SdW8Y0yGuOF6c5Als_Tl4TDIJH_h
+
+## 工作計畫
+- https://github.com/renyuanL/GuyanTrans2023/blob/main/%E5%8F%A4%E5%9A%B4%E5%AF%BA%E5%BD%B1%E9%9F%B3%E9%80%90%E5%AD%97%E7%A8%BF.pdf
+
   
 
 
