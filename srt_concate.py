@@ -1,11 +1,10 @@
+#%%
 import os
 import glob
 import tqdm
 
+#%%
 
-mp4Path= 'srt_維摩詰所說經'
-mp4Path= 'srt_六祖壇經'
-mp4Path= 'srt_112年7月阿彌陀佛紐涅七日禪'
 
 mp4Path= '.'
 
@@ -75,14 +74,15 @@ with (open(f'_{mp4Path}_.srt.txt', 'w', encoding='utf-8') as f,
             nCh= len([i for i in txtS if '\u4e00' <= i <= '\u9fff'])
             numCh += nCh
             nL    += [(n,t, nCh, filename)]
- 
+
 
 #print(f'{nL= }')
+
 for n, t, nCh, f in nL:
-    print(f'{n= },\t{t= },\t{nCh= },\t{f= }')
+    print(f'{n= }, {t= }, {nCh= }, {f= }')
 
 print(f'{len(nL)= } files')
-
+#%%
 #print(f'{tL= }')
 print(f'{sum(tL)= :,} seconds')
 print(f'{sum(tL)/3600= :.3f} hours')
@@ -95,3 +95,5 @@ print(f'{numCh= :,} chars')
 
 
 
+
+# %%
