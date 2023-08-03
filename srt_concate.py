@@ -13,12 +13,20 @@ import sys
 if len(sys.argv) > 1:
     mp4Path= sys.argv[1]
 
-
+'''
 fList = glob.glob(f'{mp4Path}/*.srt')
 fList+= glob.glob(f'{mp4Path}/*/*.srt')
 fList+= glob.glob(f'{mp4Path}/*/*/*.srt')
 fList+= glob.glob(f'{mp4Path}/*/*/*/*.srt')
 fList+= glob.glob(f'{mp4Path}/*/*/*/*/*.srt')
+'''
+
+fList= glob.glob(f'{mp4Path}/**/*.srt', recursive= True)
+
+
+
+
+
 
 # concat all srt files
 # keep their filename as a independent line
@@ -79,7 +87,11 @@ with (open(f'_{mp4Path}_.srt.txt', 'w', encoding='utf-8') as f,
 #print(f'{nL= }')
 
 for n, t, nCh, f in nL:
-    print(f'{n= }, {t= }, {nCh= }, {f= }')
+    try:
+        print(f'{n= }, {t= }, {nCh= }, {f= }')
+    except:
+        #print(f'{n= }, {t= }, {nCh= }, {f.encode("utf-8")= }')
+        pass
 
 print(f'{len(nL)= } files')
 #%%
