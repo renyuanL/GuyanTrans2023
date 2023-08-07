@@ -88,21 +88,21 @@ with (open(f'_{mp4Path}_.srt.txt', 'w', encoding='utf-8') as f,
 
 for n, t, nCh, f in nL:
     try:
-        print(f'{n= }, {t= }, {nCh= }, {f= }')
+        print(f'{n= :04d}, {t= :05d}, {nCh= :06d}, {f= }')
     except:
         #print(f'{n= }, {t= }, {nCh= }, {f.encode("utf-8")= }')
         pass
 
-print(f'{len(nL)= } files')
+print(f'{len(nL)=         :,} files')
 #%%
 #print(f'{tL= }')
-print(f'{sum(tL)= :,} seconds')
-print(f'{sum(tL)/3600= :.3f} hours')
+print(f'{sum(tL)=         :,} seconds')
+print(f'{sum(tL)/3600=    :.3f} hours')
 print(f'{sum(tL)/3600/24= :.3f} days')
 
 #print(f'{numCh= } chars')
 # print numCh using large number format
-print(f'{numCh= :,} chars')
+print(f'{numCh=           :,} chars')
 
 
 
