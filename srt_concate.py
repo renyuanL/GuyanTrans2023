@@ -8,6 +8,7 @@ import tqdm
 
 mp4Path= '.'
 
+
 # get mp4Path from command line
 import sys
 if len(sys.argv) > 1:
@@ -21,11 +22,8 @@ fList+= glob.glob(f'{mp4Path}/*/*/*/*.srt')
 fList+= glob.glob(f'{mp4Path}/*/*/*/*/*.srt')
 '''
 
+
 fList= glob.glob(f'{mp4Path}/**/*.srt', recursive= True)
-
-
-
-
 
 
 # concat all srt files
