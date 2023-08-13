@@ -31,8 +31,11 @@
 - https://youtube.com/playlist?list=PLiKV-SdW8Y0xzyp3lp2mEKJRiuAyYUkiP
 
 ## 逐字稿 srt 與 Youtube 影片的連結
-- 1. https://github.com/renyuanL/GuyanTrans2023/blob/main/df_srt_4.pdf
-- 2. https://github.com/renyuanL/GuyanTrans2023/blob/main/df_srt_4.xlsx
+1. https://github.com/renyuanL/GuyanTrans2023/blob/main/df_srt_4.pdf
+2. https://github.com/renyuanL/GuyanTrans2023/blob/main/df_srt_4.xlsx
+3. 黃色那行是 youtube, 粉紅那行是 逐字稿 srt，應可直接點，就進到內容所在處。
+   (也許需要下載到你自己的裝置，再用裝置上的瀏覽器才能點擊連接)
+
 
 ## 工作計畫
 - https://github.com/renyuanL/GuyanTrans2023/blob/main/%E5%8F%A4%E5%9A%B4%E5%AF%BA%E5%BD%B1%E9%9F%B3%E9%80%90%E5%AD%97%E7%A8%BF.pdf
