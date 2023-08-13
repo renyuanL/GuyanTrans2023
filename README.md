@@ -29,7 +29,11 @@
 
 ## 古嚴寺，德華老師父 (台語開示)
 - https://youtube.com/playlist?list=PLiKV-SdW8Y0xzyp3lp2mEKJRiuAyYUkiP
-  
+
+## 逐字稿 srt 與 Youtube 影片的連結
+- 1. https://github.com/renyuanL/GuyanTrans2023/blob/main/df_srt_4.pdf
+- 2. https://github.com/renyuanL/GuyanTrans2023/blob/main/df_srt_4.xlsx
+
 ## 工作計畫
 - https://github.com/renyuanL/GuyanTrans2023/blob/main/%E5%8F%A4%E5%9A%B4%E5%AF%BA%E5%BD%B1%E9%9F%B3%E9%80%90%E5%AD%97%E7%A8%BF.pdf
 
